@@ -1,4 +1,4 @@
-#Brain Tumor Type Detection Using AI/ML
+Brain Tumor Type Detection Using AI/ML
 This repository contains a project for detecting different types of brain tumors using AI/ML. It leverages several Python libraries for machine learning and data processing and a Flask-based backend to connect the model with a web frontend.
 
 Table of Contents
@@ -12,7 +12,9 @@ Model Training
 Contributing
 License
 Project Overview
-This AI/ML project is designed to classify brain tumor images into types using a convolutional neural network (CNN) implemented in TensorFlow. The project includes a web-based interface for users to upload MRI images, which are then processed by the trained model to detect and identify the type of tumor. Supported tumor types include:
+This AI/ML project is designed to classify brain tumor images into types using a convolutional neural network (CNN) implemented in TensorFlow. The project includes a web-based interface for users to upload MRI images, which are then processed by the trained model to detect and identify the type of tumor.
+
+Supported tumor types include:
 
 Glioma
 Meningioma
@@ -27,15 +29,17 @@ Real-Time Detection: After uploading, the system provides immediate results for 
 Model Training Pipeline: Allows retraining the model with additional datasets.
 Visualizations: Displays relevant metrics and visualizations of model performance.
 Technologies Used
-Backend
+Backend:
+
 TensorFlow: For building and training the neural network model.
 OpenCV: For image processing and pre-processing tasks.
 Pandas and NumPy: For data manipulation and handling.
 Flask: For connecting the model with the frontend.
-Frontend
+Frontend:
+
 HTML, CSS, JavaScript: For creating a responsive and user-friendly interface.
 Project Structure
-php
+plaintext
 Copy code
 ├── app.py                    # Main Flask app
 ├── model/
@@ -99,3 +103,5 @@ Create a new branch for your feature (git checkout -b feature-branch)
 Commit your changes (git commit -m 'Add some feature')
 Push to the branch (git push origin feature-branch)
 Open a pull request
+License
+This project is licensed under the MIT License.
